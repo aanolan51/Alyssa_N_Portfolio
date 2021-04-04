@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+
+   <header>  <!--Create in page links from the header-->
+        <!--Highlight my initials in the header with a different format -->
+        
+            <h1 id="name"><span class="font_change">A</span>lyssa <span class="font_change">N</span>olan</h1>
+        
+            <nav id="nav_bar"> 
+                <a class="nav_links" href="#About Me">About&nbsp;Me</a> <!--&nbsp; is used to not have a line break in the link -->
+                <a class="nav_links" href="#Work">Work</a>
+                <a class="nav_links" href="#Contact">Contact</a>
+                <a class="nav_links" href="#Resume">Resume</a>
+            </nav>
+        
+    </header>
+
+
+    <main>
+        <div class="img_header container_position"> <!--Photo by Tareq Shuvo on Unsplash-->
+            <img class = "img_header" src="./Assets/tareq-shuvo-vmmfv9Au6Ow-unsplash.jpg" alt="Slated building structure black and white">
+            <h1 id="img_head_cap">Photo by Tareq Shuvo on Unsplash</h1>
+            <div id = "img_head_text">
+                <h1>Creativity is intelligence having fun!</h1>
+                <p>-Albert Einstein</p>
+
+            </div>
+            
+        </div>
+    
+    
+    
+        <div id="About Me" class="container">
+            <aside class="aside_format">
+                <h1><span class="font_change">A</span>bout <span class="font_change">M</span>e</h1>
+            </aside>
+    
+            <section class="section_format">
+                <img id = "profile_pic" src="./Assets/photo_me.jpg" alt="Female portrait photo">
+                <p id ="aboutMe_format">More information coming soon.</p>
+            </section>
+        </div>
+    
+    
+    
+    
+        <div id="Work" class="container">
+            <aside class="aside_format">
+                <h1><span class="font_change">W</span>ork</h1>
+            </aside>
+
+            <div class="container_column">
+                <section> <!--put the image within the a tag to create the image as the link. Link to placeholder project pages-->
+                    <a href="./Project Pages/ProjectA.html" target="_blank">
+                        <div class = "container_position"> <!--use the divs to make the image a container that will contain the title-->
+                            <img class="img_mainwork" src="./Assets/tareq-shuvo-vmmfv9Au6Ow-unsplash.jpg" alt="Slated building structure black and white">
+                            <div class = "image_title">
+                                <h2>Project A</h2>
+                                <p>Short Description</p>
+                            </div>
+                        </div>   
+                    </a>
+                    
+                </section>
+                
+                <section class = "section_work">
+                    <a href="./Project Pages/ProjectB.html" target="_blank" class = "aLinkFormat">
+                        <div class = "container_position">
+                            <img class="img_smallwork" src="./Assets/tareq-shuvo-vmmfv9Au6Ow-unsplash.jpg" alt="Slated building structure black and white">
+                            <div class = "image_title">
+                                <h2>Project B</h2>
+                                <p>Short Description</p>
+                            </div>
+                        </div>
+                    </a>  
+
+                    <a href="./Project Pages/ProjectC.html" target="_blank" class = "aLinkFormat">
+                        <div class = "container_position">
+                            <img class="img_smallwork" src="./Assets/tareq-shuvo-vmmfv9Au6Ow-unsplash.jpg" alt="Slated building structure black and white">
+                            <div class = "image_title">
+                                <h2>Project C</h2>
+                                <p>Short Description</p>
+                            </div>
+                        </div>                        
+                    </a>                    
+                </section>
+
+                <section class = "section_work"> 
+                    <a href="./Project Pages/ProjectD.html" target="_blank" class ="aLinkFormat">
+                        <div class = "container_position">
+                            <img class="img_smallwork" src="./Assets/tareq-shuvo-vmmfv9Au6Ow-unsplash.jpg" alt="Slated building structure black and white">
+                            <div class = "image_title">
+                                <h2>Project D</h2>
+                                <p>Short Description</p>
+                            </div>
+                        </div>                        
+                    </a> 
+                    
+                    <a href="./Project Pages/ProjectE.html" target="_blank" class ="aLinkFormat">
+                        <div class = "container_position">
+                            <img class="img_smallwork" src="./Assets/tareq-shuvo-vmmfv9Au6Ow-unsplash.jpg" alt="Slated building structure black and white">
+                            <div class = "image_title">
+                                <h2>Project E</h2>
+                                <p>Short Description</p>
+                            </div>
+                        </div>                        
+                    </a> 
+
+                </section>
+            </div>   
+        </div>
+    
+    
+    
+        <div id="Contact" class="container">
+            <aside class="aside_format">
+                <h1><span class="font_change">C</span>ontact</h1>
+            </aside>
+            <section class="section_format">
+                <ul class="list_contact">
+                    <li class="inline_contact">
+                        <p class = "contact_item_format">Phone Number</p>
+                    </li>
+                    <li class="inline_contact">
+                        <a class= "contact_item_format" href= mailto:nolana464@gmail.com>nolana464@gmail.com</a>
+                    </li>
+                    <li class="inline_contact">
+                        <a class = "contact_item_format" href = https://github.com/aanolan51 target=_blank> Github Profile</a>
+                    </li> <!--target=_blank will open link in a new tab-->
+                </ul>
+            </section>
+        </div>
+    
+    
+    
+        <div id= "Resume" class="container">
+            <aside class="aside_format">
+                <h1><span class="font_change">R</span>esume</h1>
+            </aside>
+
+
+            <section class="section_format">
+                <ul class="list_contact">
+                    <li class="inline_contact">
+                        <a class= "contact_item_format" href= "./Resume Pages/Education.html" target=_blank>Education</a>
+                    </li>
+
+                    <li class="inline_contact">
+                        <a class= "contact_item_format" href= "./Resume Pages/Experience.html" target=_blank>Experience</a>
+                    </li>
+
+                    <li class="inline_contact">
+                        <a class= "contact_item_format" href= "./Resume Pages/Skills.html" target=_blank>Skills</a>
+                    </li>
+
+                    <li class="inline_contact">
+                        <a class= "contact_item_format" href= "./Resume Pages/Interests.html" target=_blank>Interests</a>
+                    </li>
+                    
+                </ul>
+            </section>
+        </div>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box; /* makes padding and border included in elements total width and height*/
+    padding: 0; /* No space between inner content box and the outer border box*/
+    margin: 0;
+    font-family: monospace;
+    
+}
+
+header{
+    /*display: inline-block;*/
+    display: inline-block;
+    padding: 1%; /*Create additional space between the element border and the content in the element */
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+
+
+/*Class to change specific parts of text*/
+.font_change {
+    color: hotpink;
+    font-size: 6vw; /*variable width font size*/
+}
+
+/* The characteristics that will be applied to the h1 tag inside the header*/
+#name {
+    display: inline-block;
+    font-size: 4vw; /*makes font size larger relative to the root font size*/
+    border: 5px double rgb(102, 102, 102);
+    background-color: white;
+}
+
+/*Characteristics for the nav bar element*/
+#nav_bar {
+    display: flex;
+    flex: wrap;
+    justify-content:flex-end;
+    float: right;
+    list-style-type: none;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+        
+}
+
+/*Characteristics for the links within the nav bar element*/
+.nav_links{
+    font-size: 2vw; /*variable font size*/
+    display: flex;
+    flex: wrap;
+    justify-content: flex-end;
+    border-bottom: 5px solid hotpink;
+    padding: 1%;
+    margin-left: 3%;
+   
+}
+/*Style the Nav Links*/
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.img_header {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+/*format text on the header image*/
+#img_head_text{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 20%;
+    margin-top: 2%;
+    margin-right: 6%;
+    font-size: 0.9vw;
+}
+
+
+/* Caption within the header image*/
+#img_head_cap{
+    display:inline-block;
+    font-size: 1vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2%;
+    margin-right:  2%;
+    background-color:white;
+}
+
+#profile_pic{
+    float:left;
+    width: 20%;
+    filter:grayscale();
+    border: 5px solid rgb(102, 102, 102);
+}
+
+#aboutMe_format{
+    font-size: 1.5vw;
+    margin: 2%;
+}
+
+/*Create a flex conatiner for the div elements in the main ssection of the body */
+.container{
+    display: flex;
+    flex-direction: row;
+    width:100%
+    
+}
+
+/*Title to the side of the content*/
+.aside_format{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1.1; /*slightly larger than one to accomodate the word contact being slightly larger than the other words*/
+    font-size: 4vw;
+    margin: 1%;
+    padding: 1%;
+    text-align: end;
+    
+}
+
+.section_format{
+    display:flex;
+    flex: 3; /* Uses three even boxes of space*/
+    margin: 1%;
+    padding: 1%;
+    border-left: 5px solid rgb(102, 102, 102);
+} 
+
+.container_column{
+    display: flex;
+    flex: 3;
+    margin: 1%;
+    padding: 1%;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-left: 5px solid rgb(102, 102, 102);
+}
+
+.container_position{
+    position: relative; /* creating the position of the parent element for the image links.*/
+}
+
+/*Format for the title blocks within the image links for the work pages */
+.image_title{
+    position: absolute; /*absolute position within the main container (image) */
+    left: 0;
+    bottom: 0;
+    padding: 1%;
+    margin-left:1%;
+    margin-bottom: 3%;
+    font-size: 2vw;
+    color: black;
+    background-color: hotpink;
+    text-align: center;
+}
+
+
+.img_mainwork{
+    display: flex;
+    width: 100%;  
+    margin: 1%;
+    border: 5px solid hotpink;
+}
+
+.section_work{
+    display:flex;
+    justify-content: flex-end;
+    flex: 3; /* Uses three even boxes of space*/
+    margin: 1%;
+    padding: 1%;
+} 
+
+.aLinkFormat{
+    display: flex;
+    flex: wrap;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-left: 3%;
+}
+
+.img_smallwork{
+    display: flex;
+    flex: wrap;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+    border: 5px solid hotpink;
+}
+
+
+/* List characteristics for the Contact section*/ 
+.list_contact{
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+    
+}
+
+/* Specific list item attributes*/
+.inline_contact{
+    display: flex;
+    flex: 1;
+    font-size: 2vw;
+    margin: 1%;
+
+    justify-content: center; 
+    align-self: center; /*aligns flex content in the center */
+    
+}
+
+.contact_item_format{
+    color: black;
+    text-decoration: none;
+    border-bottom: 5px solid hotpink;
+    
+}
+
