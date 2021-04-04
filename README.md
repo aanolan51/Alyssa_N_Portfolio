@@ -6,9 +6,9 @@ This project was to build the structure of my portfolio website. This website wi
 ## Usage
 This website is intended to be used as an interactive portfolio and resume. Contact information is provided, as well as links to upcoming projects and resume.
 
-![Website Screenshot first half](Assets\Site1.png)
+![Website Screenshot first half](./Assets\Site1.png)
 
-![Website Screenshot second half](Assets\Site2.png)
+![Website Screenshot second half](./Assets\Site2.png)
 
 
 
