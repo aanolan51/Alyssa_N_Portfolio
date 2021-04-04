@@ -63,6 +63,12 @@ header nav a{
     font-weight: bold;
 }
 
+/*Create a hover affect for the nav links */
+header nav a:hover{
+    color: black;
+}
+
+/* Create the image header underneath the nav*/
 .img_header {
     width: 100%;
     height: 400px;
@@ -150,6 +156,7 @@ header nav a{
     position: relative; /* creating the position of the parent element for the image links.*/
 }
 
+
 /*Format for the title blocks within the image links for the work pages */
 .image_title{
     position: absolute; /*absolute position within the main container (image) */
@@ -164,7 +171,7 @@ header nav a{
     text-align: center;
 }
 
-
+/* Characteristics for the main portfolio piece */
 .img_mainwork{
     display: flex;
     width: 100%;  
@@ -172,6 +179,8 @@ header nav a{
     border: 5px solid hotpink;
 }
 
+
+/*Formatting each section used for content */
 .section_work{
     display:flex;
     justify-content: flex-end;
@@ -180,6 +189,9 @@ header nav a{
     padding: 1%;
 } 
 
+
+
+/* Format the link that the image will be contained in. */
 .aLinkFormat{
     display: flex;
     flex: wrap;
@@ -188,6 +200,7 @@ header nav a{
     margin-left: 3%;
 }
 
+/*Format for the secondary portfolio pieces */
 .img_smallwork{
     display: flex;
     flex: wrap;
@@ -203,7 +216,6 @@ header nav a{
     list-style-type: none;
     display: flex;
     flex: 1;
-    
 }
 
 /* Specific list item attributes*/
@@ -212,16 +224,18 @@ header nav a{
     flex: 1;
     font-size: 2vw;
     margin: 1%;
-
     justify-content: center; 
-    align-self: center; /*aligns flex content in the center */
-    
+    align-self: center; /*aligns flex content in the center */   
 }
 
+/*Used to format the contact items and the resume link items*/
 .contact_item_format{
     color: black;
     text-decoration: none;
-    border-bottom: 5px solid hotpink;
-    
+    border-bottom: 5px solid hotpink; 
+}
+
+.contact_item_format:hover{
+    color: white;
 }
 
