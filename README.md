@@ -9,7 +9,7 @@ This website is intended to be used as an interactive portfolio and resume. Cont
 ![Website Screenshot first half](./Assets/Site1.png)
 ![Website Screenshot second half](./Assets/Site2.png)
 
-
+Link: https://aanolan51.github.io/Alyssa_N_Portfolio/
 
 ## Credits 
 1. https://css-tricks.com/css-basics-styling-links-like-boss/
