@@ -162,10 +162,9 @@ header nav a:hover{
 /*Format for the title blocks within the image links for the work pages */
 .image_title{
     position: absolute; /*absolute position within the main container (image) */
-    left: 0;
+    left: 1%;
     bottom: 0;
     padding: 1%;
-    margin-left:1%;
     margin-bottom: 3%;
     margin-right: 15%;
     font-size: 2vw;
@@ -192,7 +191,10 @@ header nav a:hover{
     padding: 1%;
 } 
 
-
+.repoLink{
+    text-decoration: "none";
+    color: white;
+}
 
 /* Format the link that the image will be contained in. */
 .aLinkFormat{
@@ -214,7 +216,7 @@ header nav a:hover{
 }
 
 .img_smallwork:hover, .img_mainwork:hover,
-.img_mainwork:hover + .image_title, .img_smallwork:hover + .image_title{
+.container_position:hover > .image_title{
     border: 5px solid rgb(233, 35, 134);
     background-color: rgb(233, 35, 134);
 }
