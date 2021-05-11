@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="./style.css">
     <title>Portfolio</title>
 </head>
@@ -18,8 +20,8 @@
             <nav id="nav_bar"> 
                 <a class="nav_links" href="#About Me">About&nbsp;Me</a> <!--&nbsp; is used to not have a line break in the link -->
                 <a class="nav_links" href="#Work">Work</a>
-                <a class="nav_links" href="#Contact">Contact</a>
                 <a class="nav_links" href="#Resume">Resume</a>
+                <a class="nav_links" href="#Contact">Contact</a>                
             </nav>
         
     </header>
@@ -121,29 +123,6 @@
             </div>   
         </div>
     
-    
-    
-        <div id="Contact" class="container">
-            <aside class="aside_format">
-                <h1><span class="font_change">C</span>ontact</h1>
-            </aside>
-            <section class="section_format">
-                <ul class="list_contact">
-                    <li class="inline_contact">
-                        <p class = "contact_item_format">(859)321-5480</p>
-                    </li>
-                    <li class="inline_contact">
-                        <a class= "contact_item_format" href= mailto:nolana464@gmail.com>nolana464@gmail.com</a>
-                    </li>
-                    <li class="inline_contact">
-                        <a class = "contact_item_format" href = https://github.com/aanolan51 target=_blank> Github Profile</a>
-                    </li> <!--target=_blank will open link in a new tab-->
-                </ul>
-            </section>
-        </div>
-    
-    
-    
         <div id= "Resume" class="container">
             <aside class="aside_format">
                 <h1><span class="font_change">R</span>esume</h1>
@@ -153,24 +132,44 @@
             <section class="section_format">
                 <ul class="list_contact">
                     <li class="inline_contact">
-                        <a class= "contact_item_format" href= "./Resume Pages/Education.html" target=_blank>Education</a>
+                        <a class= "resume_item" href= "./Resume Pages/Education.html" target=_blank>Education</a>
                     </li>
 
                     <li class="inline_contact">
-                        <a class= "contact_item_format" href= "./Resume Pages/Experience.html" target=_blank>Experience</a>
+                        <a class= "resume_item" href= "./Resume Pages/Experience.html" target=_blank>Experience</a>
                     </li>
 
                     <li class="inline_contact">
-                        <a class= "contact_item_format" href= "./Resume Pages/Skills.html" target=_blank>Skills</a>
+                        <a class= "resume_item" href= "./Resume Pages/Skills.html" target=_blank>Skills</a>
                     </li>
 
                     <li class="inline_contact">
-                        <a class= "contact_item_format" href= "./Resume Pages/Interests.html" target=_blank>Interests</a>
+                        <a class= "resume_item" href= "./Resume Pages/Interests.html" target=_blank>Interests</a>
                     </li>
                     
                 </ul>
             </section>
         </div>
+    
+        <div id="Contact" class="container">
+            <aside class="aside_format">
+                <h1><span class="font_change">C</span>ontact</h1>
+            </aside>
+            <section class="section_format">
+                <ul class="list_contact">
+                    <li class="inline_contact">
+                        <a href= "tel:859-321-5480" class= "contact_item_format"> <i class="fas fa-phone-square"></i> </a>
+                    </li>
+                    <li class="inline_contact">
+                        <a class= "contact_item_format" href= mailto:nolana464@gmail.com><i class="fas fa-envelope-open-text"></i></a>
+                    </li>
+                    <li class="inline_contact">
+                        <a class = "contact_item_format" href = https://github.com/aanolan51 target=_blank> <i class="fab fa-github-square"></i> </a>
+                    </li> <!--target=_blank will open link in a new tab-->
+                </ul>
+            </section>
+        </div>
+    
 
     </main>
 

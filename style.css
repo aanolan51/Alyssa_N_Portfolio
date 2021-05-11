@@ -18,7 +18,7 @@ header{
 
 /*Class to change specific parts of text*/
 .font_change {
-    color: hotpink;
+    color: rgb(233, 35, 134);
     font-size: 6vw; /*variable width font size*/
 }
 
@@ -51,7 +51,7 @@ header{
     display: flex;
     flex: wrap;
     justify-content: flex-end;
-    border-bottom: 5px solid hotpink;
+    border-bottom: 5px solid rgb(233, 35, 134);
     padding: 1%;
     margin-left: 3%;
    
@@ -66,6 +66,7 @@ header nav a{
 /*Create a hover affect for the nav links */
 header nav a:hover{
     color: black;
+    background-color: rgb(233, 35, 134);
 }
 
 /* Create the image header underneath the nav*/
@@ -99,7 +100,8 @@ header nav a:hover{
     right: 0;
     margin-bottom: 2%;
     margin-right:  2%;
-    background-color:white;
+    color:white;
+    background: rgba(59, 60, 61, 0.5);
 }
 
 #profile_pic{
@@ -168,7 +170,7 @@ header nav a:hover{
     margin-right: 15%;
     font-size: 2vw;
     color: black;
-    background-color: hotpink;
+    background-color: rgb(102, 102, 102);
     text-align: center;
 }
 
@@ -177,7 +179,7 @@ header nav a:hover{
     display: flex;
     width: 100%;  
     margin: 1%;
-    border: 5px solid hotpink;
+    border: 5px solid rgb(102, 102, 102);
 }
 
 
@@ -208,8 +210,15 @@ header nav a:hover{
     justify-content: flex-end;
     flex-direction: row;
     width: 100%;
-    border: 5px solid hotpink;
+    border: 5px solid rgb(102, 102, 102);
 }
+
+.img_smallwork:hover, .img_mainwork:hover,
+.img_mainwork:hover + .image_title, .img_smallwork:hover + .image_title{
+    border: 5px solid rgb(233, 35, 134);
+    background-color: rgb(233, 35, 134);
+}
+
 
 
 /* List characteristics for the Contact section*/ 
@@ -230,13 +239,24 @@ header nav a:hover{
 }
 
 /*Used to format the contact items and the resume link items*/
+.resume_item{
+    color: black;
+    text-decoration: none;
+    border-bottom: 5px solid rgb(233, 35, 134);
+    font-size: 2vw;
+
+}
 .contact_item_format{
     color: black;
     text-decoration: none;
-    border-bottom: 5px solid hotpink; 
+    padding: 5%;
+    font-size: 3vw;
 }
 
-.contact_item_format:hover{
+.contact_item_format:hover, .resume_item:hover{
     color: white;
+    background-color: rgb(233, 35, 134);
+    padding: 5%;
+    border-radius: 15px;
 }
 
