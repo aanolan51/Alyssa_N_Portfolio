@@ -108,12 +108,12 @@ header nav a:hover{
     float:left;
     width: 20%;
     filter:grayscale();
-    border: 5px solid rgb(102, 102, 102);
+    box-shadow: 10px 5px 5px rgb(102, 102, 102);
 }
 
 #aboutMe_format{
     font-size: 1.5vw;
-    margin: 2%;
+    margin: 3%;
 }
 
 /*Create a flex conatiner for the div elements in the main ssection of the body */
@@ -156,7 +156,9 @@ header nav a:hover{
 
 .container_position{
     position: relative; /* creating the position of the parent element for the image links.*/
+    margin-right: 5%;
 }
+
 
 
 /*Format for the title blocks within the image links for the work pages */
@@ -168,8 +170,9 @@ header nav a:hover{
     margin-right: 15%;
     font-size: 2.5vw;
     color: black;
-    background-color: rgb(102, 102, 102);
+    background: linear-gradient(to right,rgb(153, 153, 153, 0),rgb(153, 153, 153, 0.7),rgb(153, 153, 153, 0.7),rgb(153, 153, 153, 0));
     text-align: center;
+    
 }
 .smallimage_title{
     position:absolute;
@@ -178,7 +181,7 @@ header nav a:hover{
     padding: 1%;
     font-size: 1.7vw;
     color: black;
-    background-color: rgb(102, 102, 102);
+    background: linear-gradient(to right,rgb(153, 153, 153, 0),rgb(153, 153, 153, 0.7),rgb(153, 153, 153, 0.7),rgb(153, 153, 153, 0));
     margin-right: 20%;
     text-align: center;
 }
@@ -188,8 +191,13 @@ header nav a:hover{
     display: flex;
     width: 100%;  
     margin: 1%;
-    border: 5px solid rgb(102, 102, 102);
+    box-shadow: 10px 5px 5px rgb(102, 102, 102);
+    border-radius: 40px;
+    overflow: hidden;
 }
+.img_mainwork:hover {
+    transform: scale(1.08, 1.08);
+  }
 
 
 /*Formatting each section used for content */
@@ -222,13 +230,19 @@ header nav a:hover{
     justify-content: flex-end;
     flex-direction: row;
     width: 100%;
-    border: 5px solid rgb(102, 102, 102);
+    box-shadow: 10px 8px 8px rgb(102, 102, 102);
+}
+.img_smallwork:hover {
+    transform: scale(1.08, 1.08);
+  }
+
+.container_position:hover > .image_title,
+ .container_position:hover > .smallimage_title{
+    background: linear-gradient(to right,rgb(153, 153, 153, 0),rgb(233, 35, 134,0.7),rgb(233, 35, 134,0.7),rgb(153, 153, 153, 0));;
 }
 
-.img_smallwork:hover, .img_mainwork:hover,
-.container_position:hover > .image_title, .container_position:hover > .smallimage_title{
-    border: 5px solid rgb(233, 35, 134);
-    background-color: rgb(233, 35, 134);
+.img_mainwork:hover,.img_smallwork:hover{
+    box-shadow: 10px 6px 6px rgb(233, 35, 134);
 }
 
 
@@ -271,4 +285,14 @@ header nav a:hover{
     padding: 5%;
     border-radius: 15px;
 }
+
+@media screen and (max-width: 768px) {
+    .image_title{
+        font-size: 2vw;
+    }
+    .smallimage_title{
+        font-size: 1.3vw;
+    }
+  
+  }
 
